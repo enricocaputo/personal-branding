@@ -1,3 +1,5 @@
+# If you would like to crawl Personal-Branding contact me at enricocaputo.1972@gmail.com.
+
 User-agent: CCBot
 Allow: /
 Disallow: /assets/
