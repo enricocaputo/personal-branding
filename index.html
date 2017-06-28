@@ -36,17 +36,28 @@ body{
 	margin:0;
 	padding:0;
 }
+header{
+	padding: 0 15px 50px 15px;
+}
 main{
 	padding:10px;
 }
 h1{
 	text-align:center;
 	font-size:2.5em;
-	line-height:1.8;
+	color: #333;
 }
-.title-red{
-	color:#BB0000;
-	font-family: "Times New Roman", Georgia, Serif;
+.text-green {
+	color: #4CAF50; /* Green */
+}
+.title-right{
+	float:right;
+	font-size:0.5em;
+	font-weight:300;
+	line-height:2.8em;
+}
+.title-left{
+	float:left;
 }
 .call-to-action{
 	text-align:center;
@@ -124,12 +135,26 @@ footer{
 	padding: 32px 16px;
 	text-align:center;
 }
+@media screen and (max-width: 1024px) {
+    .title-right {
+        display:none;
+    }
+    header{
+		text-align:center;
+		padding:0;}
+    .title-left{
+		float:none;
+		font-size:0.7em;
+		line-height:1em;}
+}
 </style>	
 </head>
 <body>
 <main>
 
-<h1>PERSONAL BRAND <br/>di <br/><span class="title-red">Enrico Caputo</span></h1>
+<header>
+<h1><span class="title-left">personal-branding<span class="text-green">.it</span></span><span class="title-right">IL PROFILO PROFESSIONALE DI ENRICO CAPUTO</span></h1>
+</header>
 						       
 						       
 <script>
