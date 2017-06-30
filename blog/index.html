@@ -9,7 +9,7 @@
     -->
     <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     <script async custom-element="amp-live-list" src="https://cdn.ampproject.org/v0/amp-live-list-0.1.js"></script>
-    <link rel="canonical" href="<%host%>/samples_templates/live_blog/">
+    <link rel="canonical" href="https://personal-branding.it/blog/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
       <!-- ## Metadata -->
@@ -18,16 +18,16 @@
         {
           "@context": "http://schema.org",
           "@type": "LiveBlogPosting",
-          "url": "<%host%>/samples_templates/live_blog/",
-          "articleBody": "This is the initial text in the blog post",
+          "url": "https://personal-branding.it/blog/",
+          "articleBody": "Benvenuti sul mio blog ...",
           "datePublished": "2016-09-08T23:04:28.24337",
           "about": {
             "@type": "Event",
             "description": "This is my great live blog sample",
             "startDate": "2016-07-23T13:00:00-07:00",
             "endDate": "2016-07-23T15:00:00-07:00",
-            "name": "An AMP Live Blog",
-            "url": "<%host%>/samples_templates/live_blog/",
+            "name": "Personal-Branding of E. Caputo AMP Live Blog",
+            "url": "https://personal-branding.it/blog/",
             "location": {
               "@type": "EventVenue",
               "name": "The Venue Name",
@@ -43,27 +43,27 @@
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Google",
+            "name": "personal-branding.it",
             "logo": {
               "@type": "ImageObject",
-              "url": "<%host%>/img/favicon.png",
+              "url": "https://personal-branding.it/favicon.png",
               "width": "512",
               "height": "512"
             }
           },
           "author": {
             "@type": "Person",
-            "sameAs": "https://github.com/kul3r4",
-            "name": "Chiara Chiappini"
+            "sameAs": "https://github.com/enricocaputo/",
+            "name": "Enrico Caputo"
           },
           "image": {
             "@type": "ImageObject",
-            "url": "<%host%>/img/abe_preview.png",
-            "height": "1532",
-            "width": "2046"
+            "url": "https://personal-branding.it/enrico-caputo-udine.jpg",
+            "height": "435",
+            "width": "516"
           },
-          "coverageStartTime": "2016-07-23T11:30:00-07:00",
-          "coverageEndTime": "2016-07-23T16:00:00-07:00",
+          "coverageStartTime": "2017-06-30T11:30:00-07:00",
+          "coverageEndTime": "2017-06-30T11:30:00-07:00",
           "headline": "An AMP Live Blog",
           "description": "A Live Blog implementation with AMP",
           "liveBlogUpdate": [[.BlogMetadata]]
@@ -144,9 +144,9 @@
   </head>
   <body>
     <section class="heading">
-      <h1>An AMP Live Blog</h1>
-      <p><small class="date">Fri July 22 2016</small></p>
-      <p><small>by Chiara Chiappini</small></p>
+      <h1>Personal-Branding AMP Live Blog</h1>
+      <p><small class="date">Fri June 30 2017</small></p>
+      <p><small>by Enrico Caputo</small></p>
       <p id="summary">This is a sample article demonstrating how to write a live blog in AMP. It demonstrates the usage of amp-live-list component which allows to create live blogs.</p>
     </section>
     <!-- ## Blog Posts -->
@@ -163,8 +163,8 @@
       [[range .BlogItems]]
           <div id="[[.ID]]" data-sort-time="[[.Timestamp]]">
             <div class="ampstart-card m1 blog">
-              <amp-img src="[[.Image]]"
-                  layout="responsive" width="1280" height="853">
+              <amp-img src="2017-06-30T11:30:00-07:00"
+                  layout="responsive" width="435" height="516">
               </amp-img>
               <h4 class="title">[[.Heading]]</h4>
               <p class="date">[[.Date]]</p>
