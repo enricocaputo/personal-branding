@@ -38,6 +38,31 @@ body{
 header{
 	padding: 0 15px 50px 15px;
 }
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
 main{
 	padding:10px;
 }
@@ -219,7 +244,7 @@ footer{
 <header>
 <h1><span class="title-left">personal-branding<span class="text-green">.it</span></span><span class="title-right">IL PROFILO PROFESSIONALE DI ENRICO CAPUTO</span></h1>
 </header>
-
+<a class="skip-main" href="#main">Skip to main content</a>
 
 
 
@@ -257,7 +282,7 @@ footer{
 <br/><br/><br/><br/><br/>
 
 
-<h2>CURRICULUM VITAE</h2>
+<h2 id="main" tabindex="-1">CURRICULUM VITAE</h2>
 <br/><br/><br/><br/><br/>
 <label>Contenuto</label>
 
