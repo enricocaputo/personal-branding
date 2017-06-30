@@ -1,37 +1,421 @@
-<!-- forestryio: ignore; forestryio: admin -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Admin</title>
-    <meta name="description" content=" " />
-    <meta name="author" content=" " />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
-    <!-- Use maximum-scale and user-scalable at your own risk. It disables pinch/zoom. Think about usability/accessibility before including.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src data:; script-src 'self'; style-src 'unsafe-inline'">
+    <meta content="origin" name="referrer">
+    <meta content="origin-when-cross-origin" name="referrer">
+	<title>Enrico Caputo Personal Brand</title>
+	<meta name="Description" content="Vedi il profilo professionale di Enrico Caputo, offrigli un lavoro oppure sostienilo con un Like.">
+	
+  <meta property="og:url"           content="https://personal-branding.it/ />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="personal-branding" />
+  <meta property="og:description"   content="Vedi il profilo professionale di Enrico Caputo, offrigli un lavoro oppure sostienilo con un Like." />
+  <meta property="og:image"         content="https://personal-branding.it/assets/enrico-caputo-udine.jpg" />
+	
+	
+	<link rel="fluid-icon" href="assets/fluidicon.png" title="Personal-Branding">
+	<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","@id":"#website","url":"http://personal-branding.it/",
+	"name":"Enrico Caputo - Personal Brand","sameAs":"https://www.linkedin.com/in/enricocaputo/","potentialAction":{"@type":"SearchAction","target":"http://personal-branding.it/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+	<script type="application/ld+json">
+    {"@context": "http://schema.org","@type": "Person","address": {"@type": "PostalAddress","addressLocality": "Udine","addressRegion": "IT","postalCode": "33050","streetAddress": "Via Palma 26"},
+      "disambiguatingDescription": "",
+      "email": "mailto:enricocaputo.1972@gmail.com","image": "http://personal-branding.it/assets/enrico-caputo.jpg",
+      "jobTitle": "","sameAs":"https://www.linkedin.com/in/enricocaputo/",
+      "name": "Enrico Caputo","telephone": "(+39) 388-9005888","url": "http://personal-branding.it/"}</script>
+	<link rel="canonical" href="http://personal-branding.it/" />
+<style type="text/css" media="screen">
+body{
+	background-color:white;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	color:black;
+	margin:0 auto;
+	padding:0;
+}
+header{
+	padding: 0 15px 50px 15px;
+}
+main{
+	padding:10px;
+}
+h1{
+	text-align:center;
+	font-size:2.5em;
+	color: #333;
+}
+.text-green {
+	color: #4CAF50; /* Green */
+}
+.title-right{
+	float:right;
+	font-size:0.5em;
+	font-weight:300;
+	line-height:2.8em;
+}
+.title-left{
+	float:left;
+}
+.call-to-action{
+	text-align:center;
+	font-size: 1.275em;
+	line-height:1.5;
+	color: #333;
+}
+h2 {
+	font-size: 1.875em;
+	text-align:center;
+}
+h3 {
+	font-size: 1.275em;
+}
+p {
+	font-size: 1em;
+}
+p.big{
+	font-size: 1.275em;
+	line-height:1.5;
+	}
+a {
+	text-decoration:none;
+	color: #000;
+}
+a:hover{
+	color: #4CAF50; /* Green */;
+}
 
-    <link rel="stylesheet" href="https://local.forestry.io/main.css" />
+.big-center{
+	font-size:2.5em;
+	text-align:center;
+}
+.btn-call{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.text-center{
+	text-align:center;
+	line-height:1.5;
+}
+label{
+	display:inline;
+	padding:.2em .6em .3em;
+	font-weight:bold;
+	line-height:1;
+	color:#fff;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:baseline;
+	border-radius:.25em;
+	position:relative;
+	top:-1px;
+	background:#4CAF50; /* Green */
+}
 
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <!-- Fort awesome icon kit -->
-    <script src="https://use.fortawesome.com/b6f38602.js"></script>
 
+
+
+
+nav ul {
+	width:100%;
+	
+	position: relative;
+	z-index: 4;
+
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5f5f5f;
+
+
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    color: #fff;
+	background-color: #000 !important;
+
+}
+
+.active {
+	background-color: #4CAF50;
+	color: #ffffff;
+}
+.active:hover {
+	color: #ffffff;
+}
+
+
+
+
+
+ol {
+	font-weight: bold;
+	font-size: 1.375em;
+	line-height:2;
+}
+ol li a { 
+	text-decoration: none;
+}
+td {
+	vertical-align: middle;
+	text-align: left;
+	padding: 8px;
+}
+ul{
+	list-style-type: square;
+}
+img{
+	width:100%
+}
+#foto{
+	text-align:center;
+}
+footer{
+	padding: 25px 10px;
+}
+.opacity60{
+	opacity: 0.60;
+}
+@media screen and (max-width: 1024px) {
+    .title-right {
+        display:none;
+    }
+    header{
+		text-align:center;
+		padding:0;}
+    .title-left{
+		float:none;
+		font-size:0.7em;
+		line-height:1em;}
+}
+</style>
 </head>
 <body>
-<div id="app">
 
+<header>
+<h1><span class="title-left">personal-branding<span class="text-green">.it</span></span><span class="title-right">IL PROFILO PROFESSIONALE DI ENRICO CAPUTO</span></h1>
+</header>
+
+
+
+
+<nav>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li></li>
+  <li></li>
+  <li style="float:right"></li>
+</ul>
+</nav>
+
+<br/>
+<main>
+<p class="big">Enrico Caputo (<a href="https://it.wikipedia.org/wiki/Gorizia" rel="nofollow">Gorizia</a>, 14 ottobre 1972) personal brand. Di seguito puoi leggere e scaricare, in formato pdf il mio curriculum vitae. 
+<br/>Blog: coming soon!</p>
+
+<br/><br/>
+
+<div class="call-to-action">
+	 Proposte di lavoro e collaborazione sono ben accette.<br/><br/>
+	<a href="tel:+393889005888" class="btn-call">
+	&#9742; CHIAMA ENRICO !
+	</a>
 </div>
-<script id="admin-config-script" type="text/javascript">
-    var env = {
-        siteId: "1hyofjpkui-nuw",
-        local: false
-    };
-</script>
-<script type="application/javascript" src="https://local.forestry.io/forestry.min.js"></script>
+<br/><br/><br/>
+<div class="text-center">
+<p>Aggiungi il mio <abbr title="+39 388 9005 888">numero</abbr> ai tuoi contatti<br/>
+<a href="https://www.viber.com" rel="nofollow"><img src="/home/ricky/Escritorio/assets/viber32x32.png" alt="" style="width:32px;height:32px;"><b>Viber</b></a>  
+<a href="https://www.whatsapp.com/" rel="nofollow"><img src="/home/ricky/Escritorio/assets/whatsapp32x32.png" alt="" style="width:32px;height:32px;"><b>WhatsApp</b></a>
+</p>
+</div>
+<br/>
+<hr/>
+<br/><br/><br/><br/><br/>
 
+
+<h2>CURRICULUM VITAE</h2>
+<br/><br/><br/><br/><br/>
+<label>Contenuto</label>
+
+<ol>
+<li><a href="#section1">Dati anagrafici</a></li>
+<li><a href="#section2">Esperienze di lavoro</a></li>
+<li><a href="#section3">Abilit&agrave; e competenze</a></li>
+<li><a href="#section4">Educazione</a></li>
+<li><a href="#section5">Profilo personale e interessi</a></li>
+</ol>
+
+
+<br/><br/><br/><br/><br/>
+<p class="big-center">aggiornato al 24/06/2017</p>
+<br/><br/><br/>
+<hr>
+<br/><br/><br/>
+
+
+<label id="section1">1</label>
+
+<h3>1. Dati anagrafici</h3>
+<div style="overflow-x:auto;">
+<table>
+	<tr>
+		<td><b>Nome</b></td>
+		<td>Enrico</td>
+	</tr>
+	<tr>
+		<td><b>Cognome</b></td>
+		<td>Caputo</td>
+	</tr>
+	<tr>
+		<td><b>Nazionalit&agrave;</b></td>
+		<td>Italiana</td>
+	</tr>
+	<tr>
+		<td><b>Data di nascita</b></td>
+		<td>14/10/1972</td>
+	</tr>
+	<tr>
+		<td><b>Codice Fiscale</b></td>
+		<td>CPTNRC72R14E098X</td>
+	</tr>
+	<tr>
+		<td><b>Indirizzo</b></td>
+		<td>Udine (UD)</td>
+	</tr>
+	<tr>
+		<td><b>Telefono</b></td>
+		<td>+39 388 9005 888</td>
+	</tr>
+	<tr>
+		<td><b>E-mail</b></td>
+		<td>enricocaputo.1972@gmail.com</td>
+	</tr>
+</table>
+</div>
+
+<br/><br/>
+<label id="section2">2</label>
+
+
+<h3> 2. Esperienze di lavoro </h3>
+
+	<p><b>2016 - oggi</b></p>
+	<p>Piccoli lavoretti: giardinaggio, realizzazione siti internet, autista.</p>
+	<p>Descrizione:  lavori occasionali.</p>
+
+	<p><b>2010 - 2017</b></p>
+	<p>Liquidatore. E.C. Trade s.r.l.</p>
+	<p>Descrizione:  liquidazione della societ&agrave;.</p>
+
+	<p><b>2005 - 2010</b></p>
+    <p>Amministratore. Capital Rent s.r.l.</p>
+	<p>Descrizione:  gestione dell&apos;azienda. Settore noleggio automobili.</p>
+
+	<p><b>1998 - 2002</b></p>
+	<p>Amministratore. Auto inn 4x4 s.r.l.</p>
+	<p>Descrizione:  gestione dell&apos;azienda. Settore vendita autoveicoli.</p>
+
+<br/><br/><br/>
+<label id="section3">3</label>
+
+<h3>3. Abilit&agrave; e competenze</h3>
+
+	<p>Responsabille, padronanza informatica, voglia di mettersi in gioco.</p>
+
+<br/><br/><br/>
+<label id="section4">4</label>
+
+<h3>4. Educazione</h3>
+
+	<p><b>2016</b></p>
+	<p>Laurea breve. Scienze del turismo culturale. Universit&agrave; degli studi di Udine.</p>
+
+	<p><b>1991</b></p>
+	<p>Diploma di scuola superiore. Ragioneria. ITC Einaudi di Palmanova (UD).</p>
+
+	<p><b>Corsi e diplomi</b></p>
+
+	<p><b>2017</b></p>
+	<p>Pubblicit&agrave; sui dispositivi mobili. Google AdWords.</p>
+	<p><b>2016</b></p>
+	<p>Tirocinio. Archivio di Stato di Udine.</p>
+	<p><b>2016</b></p>
+	<p>Nuove tecnologie e sviluppo web. Universit&agrave; degli Studi di Udine.</p>
+	<p><b>2016</b></p>
+	<p>HTML, CSS, PHP. W3Schools.</p>
+	<p><b>2015</b></p>
+	<p>Corsi di Lingua inglese. Universit&agrave; degli studi di Udine.</p>
+	<p><b>2012</b></p>
+	<p>Fashion System Design. IED - Istituto Europeo del Design di Venezia.</p>
+
+<br/><br/><br/>
+<label id="section5">5</label>
+
+
+<h3>5. Profilo personale e interessi</h3>
+
+	<p>I miei interessi personali includono la programmazione informatica e le escursioni in mountain bike.</p>
+
+<ul>
+	<li>44 anni.</li>
+	<li>Separato.</li>
+	<li>Godo di buona salute.</li>
+	<li>Patenti auto, moto e nautica.</li>
+
+</ul>
+<br/><br/><br/>
+<div id="foto">
+<img src="assets/enrico-caputo.jpg" alt="E. Caputo, ritratto fotografico, Santo Domingo 2017" style="max-width:435px;max-height:516px;">
+</div>
+</main>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.9&appId=1935991236677882";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="https://personal-branding.it/" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<br/><br/>
+
+<footer>
+	<hr/>
+	<div class="call-to-action">
+	Download Curriculum in <a href=""><span class="text-green">PDF &#8675;</span></a>
+	</div>
+	<hr/>
+	<div class="text-center opacity60">
+		W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. 
+		While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2017 by Refsnes Data. All Rights Reserved.
+		<br/>Powered by W3.CSS.
+    </div>
+</footer>
 </body>
 </html>
