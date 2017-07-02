@@ -101,12 +101,11 @@ p.big{
 	}
 a {
 	text-decoration:none;
-	color: #000;
+	color: #4CAF50; /* Green */
 }
 a:hover{
-	color: #4CAF50; /* Green */;
+	color: DarkGreen;
 }
-
 .big-center{
 	font-size:2.5em;
 	text-align:center;
@@ -122,9 +121,7 @@ a:hover{
 	font-size: 16px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.btn-call:hover{
-	color:DarkGreen;
-	}
+ .btn-call:hover{color:DarkGreen;}
 .text-center{
 	text-align:center;
 	line-height:1.5;
@@ -143,33 +140,23 @@ label{
 	top:-1px;
 	background:#4CAF50; /* Green */
 }
-
-
-
-
-
-
 nav ul {
 	width:100%;
-	
+
 	position: relative;
 	z-index: 4;
 
-	
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #5f5f5f;
-
-
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
-
 nav ul li {
     float: left;
-}
 
+}
 nav ul li a {
     display: block;
     color: #f1f1f1;
@@ -177,13 +164,10 @@ nav ul li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 nav ul li a:hover:not(.active) {
     color: #fff;
 	background-color: #000 !important;
-
 }
-
 .active {
 	background-color: #4CAF50;
 	color: #ffffff;
@@ -191,17 +175,12 @@ nav ul li a:hover:not(.active) {
 .active:hover {
 	color: #ffffff;
 }
-
-
-
-
-
 ol {
 	font-weight: bold;
 	font-size: 1.375em;
 	line-height:2;
 }
-ol li a { 
+ol li a {
 	text-decoration: none;
 }
 td {
@@ -220,6 +199,14 @@ img{
 }
 footer{
 	padding: 25px 10px;
+}
+.footer-left{
+  float: left;
+  padding-left: 25px;
+}
+.footer-right{
+  float:right;
+  padding-right: 25px;
 }
 .opacity60{
 	opacity: 0.60;
@@ -249,34 +236,33 @@ footer{
 
 <nav>
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li></li>
-  <li></li>
+  <li><a class="active" href="#home"><b>Home</b></a></li>
+  <li><a href="" target="_blank"><img src="assets/facebook32.png" alt="Facebook" title="Facebook" style="margin:-6px; "></a></li>
+  <li><a href="" target="_blank"><img src="assets/googleplus32.png" alt="Google+" title="Google+" style="margin:-6px;"></a></li>
+  <li><a href="" target="_blank"><img src="assets/linkedin32.png" alt="Linkedin" title="Linkedin" style="margin:-6px;"></a></li>
+
   <li style="float:right"></li>
 </ul>
 </nav>
 
 <br/>
 <main>
-<p class="big">Enrico Caputo (<a href="https://it.wikipedia.org/wiki/Gorizia" rel="nofollow">Gorizia</a>, 14 ottobre 1972) personal brand. Di seguito puoi leggere e scaricare, in formato pdf il mio curriculum vitae. 
-<br/>Blog: coming soon!</p>
+<p class="big">Ti do il mio benvenuto. Il <a href="https://it.wikipedia.org/wiki/Personal_branding" target="_blank" rel="nofollow">personal branding</a> &egrave; l&apos;attivit&agrave; con cui
+prima si consapevolizza e poi si struttura la propria marca personale.
+Ti chiedo di volermi gentilmente aiutare a migliorare la mia situazione lavorativa e sociale: usa il pulsante in fondo alla pagina per condividerla su facebook.
+<br/>
+Di seguito potrai vedere e scaricare in formato pdf il curriculum vitae di Enrico Caputo (<a href="https://it.wikipedia.org/wiki/Gorizia" target="_blank" rel="nofollow">Gorizia</a>, 14 ottobre 1972).
+</p>
 
 <br/><br/>
 
 <div class="call-to-action">
-	 Proposte di lavoro e collaborazione sono ben accette.<br/><br/>
+	 PER PROPOSTE DI LAVORO<br/><br/>
 	<a href="tel:+393889005888" class="btn-call">
 	&#9742; CHIAMA ENRICO !
 	</a>
 </div>
-<br/><br/><br/>
-<div class="text-center">
-<p>Aggiungi il mio <abbr title="+39 388 9005 888">numero</abbr> ai tuoi contatti<br/>
-<a href="https://www.viber.com" rel="nofollow"><img src="assets/viber32x32.png" alt="iconViber" style="width:32px;height:32px;"><b>Viber</b></a>  
-<a href="https://www.whatsapp.com/" rel="nofollow"><img src="assets/whatsapp32x32.png" alt="iconWhatsApp" style="width:32px;height:32px;"><b>WhatsApp</b></a>
-</p>
-</div>
-<br/>
+<br/><br/><br/><br/><br/>
 <hr/>
 <br/><br/><br/><br/><br/>
 
@@ -426,28 +412,22 @@ footer{
 }(document, 'script', 'facebook-jssdk'));</script>
 	
 	<div class="fb-like" data-href="https://personal-branding.it" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-	
-	
+
 </div>
 	</main>
-
-
 <footer>
-	
-	
-	
-	
-	<hr/>
-	<div class="call-to-action">
+<hr/>
+    <div class="call-to-action">
 	Download Curriculum in <a href="assets/cv.pdf"><span class="text-green">PDF &#8675;</span></a>
 	</div>
-	<hr/>
-	<div class="text-center opacity60">
-	<a href="sitemap.html">Sitemap</a>
-	<hr/>
-	Questo sito fa uso solamente dei cookie strettamente necessari a garantirne la sicurezza di navigazione: maggiori dettagli sono diponibili nella sezione <a href="cookie.html">Cookie Policy</a>. 
-	Copyright 2017 by Enrico Caputo. All Rights Reserved.
-		<br/>Powered by GitHub.
+    	<div class="text-center opacity60">
+<hr/>
+	<a class="footer-left" href="sitemap.html"><b>Sitemap</b></a> <a class="footer-right" href="contact.html"><b>Contatti</b></a><br/>
+<hr/>
+	Questo sito fa uso solamente dei cookie strettamente necessari a garantirne la sicurezza di navigazione: maggiori dettagli sono diponibili nella sezione <a href="cookie.html">Cookie Policy</a>.
+	<br/><br/>Hosted from Github.<br/><br/>
+    <a href="" target="_blank"><img src="assets/github64.png" alt="Github" title="Github" style="width:64px; height:64px;"></a><br/>
+    <a href="" target="_blank"><img src="assets/humanstxt.gif" alt="humantext" title="Github" style="width:88px; height:31px;"></a>
     </div>
 </footer>
 </body>
