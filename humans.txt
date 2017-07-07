@@ -1,15 +1,15 @@
 /* TEAM */
-	Web designer: Enrico Caputo
-	Contact: enricocaputo.1972 [at] gmail.com
-	From: Udine, Friuli Venezia Giulia, Italy
+  Web designer: Enrico Caputo
+  Contact: enricocaputo.1972 [at] gmail.com
+  From: Udine, Friuli Venezia Giulia, Italy
 
 /* THANKS */
-	Hosting: github.com
+  Hosting: github.com
   Learning: w3schools.com / developers.google.com
-  Testing: varvy.com/ / search.google.com/structured-data/testing-tool / validator.w3.org
+  Testing: varvy.com / search.google.com/structured-data/testing-tool / validator.w3.org
 
 /* SITE */
-	Last update:2017/07/02
-	Language: Italiano
-	Doctype:HTML5
-	IDE: Atom
+  Last update:2017/07/02
+  Language: Italian
+  Doctype:HTML5
+  IDE: Atom
