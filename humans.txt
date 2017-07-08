@@ -6,6 +6,7 @@
 /* THANKS */
   Hosting: github.com
   Learning: w3schools.com / developers.google.com
+  Secure Socket Layer (SSL): https://www.cloudflare.com
   Testing: varvy.com / search.google.com/structured-data/testing-tool / validator.w3.org
 
 /* SITE */
