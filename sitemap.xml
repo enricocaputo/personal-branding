@@ -5,15 +5,30 @@
          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 
          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+         
+<url>
+<loc>https://personal-branding.it/</loc>
+<lastmod>2017-10-30</lastmod><changefreq>weekly</changefreq><priority>1</priority>
+</url>
 
 <url>
+<loc>https://personal-branding.it/sitemap.html</loc>
+<lastmod>2017-10-30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority>
+</url>
 
-      <loc>https://personal-branding.it/</loc>
+<url>
+<loc>https://personal-branding.it/contact.html</loc>
+<lastmod>2017-10-30</lastmod><changefreq>weekly</changefreq><priority>0.8</priority>
+</url>
 
-      <changefreq>daily</changefreq>
+<url>
+<loc>https://personal-branding.it/cookie.html</loc>
+<lastmod>2017-10-30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority>
+</url>
 
-      <priority>1.0</priority>
-
+<url>
+<loc>https://personal-branding.it/humans.txt</loc>
+<lastmod>2017-10-30</lastmod><changefreq>weekly</changefreq><priority>0.5</priority>
 </url>
 
 </urlset>
